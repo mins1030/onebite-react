@@ -1,0 +1,18 @@
+.Editor {
+  display: flex;
+  gap: 10px;
+}
+.Editor input {
+  flex: 1; /* 부모요소를 넘지않는 선에서 끝까지 늘어남*/
+  padding: 15px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+.Editor button {
+  cursor: pointer; /* 커서를 올리면 포인터 모양으로 변함*/
+  width: 80px;
+  border: none;
+  background-color: rgb(37, 147, 255);
+  color: white;
+  border-radius: 5px;
+}
